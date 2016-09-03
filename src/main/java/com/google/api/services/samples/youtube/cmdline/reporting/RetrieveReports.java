@@ -18,6 +18,7 @@ import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.services.samples.youtube.cmdline.Auth;
 import com.google.api.services.youtubereporting.YouTubeReporting;
+import com.google.api.client.http.GenericUrl;
 import com.google.api.services.youtubereporting.YouTubeReporting.Media.Download;
 import com.google.api.services.youtubereporting.model.Job;
 import com.google.api.services.youtubereporting.model.ListJobsResponse;
