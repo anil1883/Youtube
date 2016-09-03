@@ -11,8 +11,8 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <project.youtube.version>v3-rev107-1.18.0-rc</project.youtube.version>
-        <project.youtube.analytics.version>v1-rev24-1.17.0-rc</project.youtube.analytics.version>
+        <project.youtube.version>v3-rev178-1.22.0</project.youtube.version>
+        <project.youtube.analytics.version>v1-rev53-1.20.0</project.youtube.analytics.version>
         <project.http.version>1.18.0-rc</project.http.version>
         <project.oauth.version>1.18.0-rc</project.oauth.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,6 +32,12 @@
             <groupId>com.google.apis</groupId>
             <artifactId>google-api-services-youtube</artifactId>
             <version>${project.youtube.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-youtubereporting</artifactId>
+            <version>v1-rev10-1.22.0</version>
         </dependency>
 
         <!-- Required for any code that makes calls to the Google Analytics API -->
